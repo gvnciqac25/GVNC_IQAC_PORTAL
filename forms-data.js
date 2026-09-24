@@ -8,7 +8,8 @@ const FORMS = [
         m: "1.1.2 & 1.2.2",
         t: "Syllabus Revision & CBCS / Elective Course System",
         d: "Details of programmes where syllabus revision was carried out and programmes offered through CBCS / Elective Course System.",
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSf-CPHkJxxmzOXx8qEKlwahfqHrKFKuFDOPxvWmImgo-_MaHg/viewform?usp=dialog"
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSf-CPHkJxxmzOXx8qEKlwahfqHrKFKuFDOPxvWmImgo-_MaHg/viewform?usp=dialog",
+        template: "templates/1.1.2-1.2.2.docx"
     },
 
     {
@@ -16,7 +17,8 @@ const FORMS = [
         m: "1.1.3 & 1.2.1",
         t: "Employability / Entrepreneurship / Skill Development & New Courses",
         d: "Courses focusing on employability, entrepreneurship and skill development, plus courses introduced across programmes.",
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSeQ8ssJiAwGwao2_TVS6jxhABcGzuhSvokkoHI-Zvoae723-g/viewform?usp=dialog"
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSeQ8ssJiAwGwao2_TVS6jxhABcGzuhSvokkoHI-Zvoae723-g/viewform?usp=dialog",
+        template: "templates/1.1.3-1.2.1.docx"
     },
 
     {

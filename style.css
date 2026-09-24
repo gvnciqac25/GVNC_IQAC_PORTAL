@@ -759,3 +759,79 @@ footer {
         font-size: 10px;
     }
 }
+/* ======================================================
+   FORM ACTION BUTTONS
+   ====================================================== */
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+/* Download Template button */
+
+.download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    background: #f3f5f9;
+    color: #1f2937;
+
+    border: 1px solid #d9dee8;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.download:hover {
+    background: #e9edf5;
+    border-color: #c8ceda;
+
+    transform: translateY(-1px);
+}
+
+
+/* Existing Open Form button remains primary */
+
+.form-actions .open {
+    flex-shrink: 0;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 700px) {
+
+    .form-actions {
+        width: 100%;
+
+        justify-content: flex-start;
+
+        flex-wrap: wrap;
+    }
+
+    .download,
+    .form-actions .open {
+        flex: 1;
+    }
+
+}

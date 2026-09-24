@@ -59,7 +59,7 @@ function clearCriterionURL() {
 
 
 // ======================================================
-// CRITERION PAGE
+// CRITERIA PAGE
 // ======================================================
 
 function renderCriteria() {
@@ -99,25 +99,9 @@ function renderCriteria() {
             );
 
 
-            // Hide criteria that don't have
-            // any active forms
             if (forms.length === 0) {
                 return;
             }
-
-
-            /*
-             * IMPORTANT:
-             *
-             * We use a real <a> element instead
-             * of only using onclick.
-             *
-             * This allows:
-             *
-             * Right-click
-             * → Copy link address
-             *
-             */
 
 
             const x = document.createElement("a");
@@ -160,11 +144,6 @@ function renderCriteria() {
                 "click",
                 event => {
 
-                    /*
-                     * Normal left click:
-                     * open the criterion inside
-                     * the same page.
-                     */
                     event.preventDefault();
 
                     renderForms(n);
@@ -190,7 +169,6 @@ function renderCriteria() {
 function renderForms(c) {
 
     current = c;
-
 
     updateCriterionURL(c);
 
@@ -261,6 +239,31 @@ function renderForms(c) {
         row.className = "form";
 
 
+        // --------------------------------------------------
+        // DOWNLOAD BUTTON
+        // --------------------------------------------------
+
+        let downloadButton = "";
+
+        if (f.template) {
+
+            downloadButton = `
+                <a
+                    class="download"
+                    href="${f.template}"
+                    download
+                >
+                    Evidence Template ↓
+                </a>
+            `;
+
+        }
+
+
+        // --------------------------------------------------
+        // FORM ROW
+        // --------------------------------------------------
+
         row.innerHTML = `
             <div>
 
@@ -278,14 +281,20 @@ function renderForms(c) {
 
             </div>
 
-            <a
-                class="open"
-                href="${f.url}"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Open Form ↗
-            </a>
+            <div class="form-actions">
+
+                ${downloadButton}
+
+                <a
+                    class="open"
+                    href="${f.url}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Open Form ↗
+                </a>
+
+            </div>
         `;
 
 
@@ -314,12 +323,6 @@ function search() {
 
 
     if (!q) {
-
-        /*
-         * If the user clears search while
-         * viewing a shared criterion URL,
-         * return to that criterion.
-         */
 
         const criterion =
             getCriterionFromHash();
@@ -406,6 +409,23 @@ function search() {
             row.className = "form";
 
 
+            let downloadButton = "";
+
+            if (f.template) {
+
+                downloadButton = `
+                    <a
+                        class="download"
+                        href="${f.template}"
+                        download
+                    >
+                        Download Template ↓
+                    </a>
+                `;
+
+            }
+
+
             row.innerHTML = `
                 <div>
 
@@ -423,14 +443,20 @@ function search() {
 
                 </div>
 
-                <a
-                    class="open"
-                    href="${f.url}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Open Form ↗
-                </a>
+                <div class="form-actions">
+
+                    ${downloadButton}
+
+                    <a
+                        class="open"
+                        href="${f.url}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Open Form ↗
+                    </a>
+
+                </div>
             `;
 
 
@@ -446,7 +472,7 @@ function search() {
 
 
 // ======================================================
-// KEYBOARD SHORTCUT
+// SEARCH KEYBOARD SHORTCUT
 // ======================================================
 
 $("search").addEventListener(
