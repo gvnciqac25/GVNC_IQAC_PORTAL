@@ -82,40 +82,40 @@ const FORMS = [
     {
         c: "3",
         m: "3.1.2",
-        t: "Research Grants",
-        d: "Details related to research grants received by the institution.",
+        t: "Seed Money for Research",
+        d: "The institution provides seed money to its teachers for research.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSf1qJW1Id6Z-jkr2Pxj4vxzgQ4lgydYUczxtBfgK2OwsV2EGQ/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.1.3",
-        t: "Research Facilities",
-        d: "Details related to research facilities and support provided by the institution.",
+        t: "National/International Research Fellowships",
+        d: "Details of teachers awarded National/International fellowships for advanced studies or research during the year..",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSclqTq-CjrHPvo9HTzg9xxhZ6COt14uKQRr-pMRy3O9Wzw_Aw/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.2.1, 3.2.2 & 3.2.4",
-        t: "Research Projects & Research Support",
-        d: "Details related to research projects, research support and related activities.",
+        t: "Research Grants & Funded Projects",
+        d: "Details of research grants received from Government and non-government agencies, teachers having research projects, and departments with Government/non-government funded research projects during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfhNZ9PU3Yq05Ca8WAL5SYkOHxP2ZOAiD0q35dEXVDlDPB4Sg/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.2.3",
-        t: "Research Publications",
-        d: "Details related to research publications and scholarly output.",
+        t: "Recognised Research Guides",
+        d: "Details of teachers recognised as research guides.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfkPNL8kmGdUejsBNzZ1jaSUjIX5Z_4-6LHU93CznNP048AEA/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.3.2",
-        t: "Research Publications & Awards",
-        d: "Details related to research publications, awards and recognition.",
+        t: "IPR, Research & Skill Development Programmes",
+        d: "Details of workshops/seminars conducted on Intellectual Property Rights (IPR), Research Methodology, Entrepreneurship and Skill Development during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSf3e51spB8I0EWD9Dg_8i9dPE-IRSlwyDeACTCubII_IDkkyg/viewform?usp=header"
     },
 
@@ -130,48 +130,48 @@ const FORMS = [
     {
         c: "3",
         m: "3.4.4",
-        t: "Extension Activities & Collaborations",
-        d: "Details related to extension activities and institutional collaborations.",
+        t: "Books & Book Chapters",
+        d: "Details of books and chapters in edited volumes/books per teacher during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfE89qtnFP_d1_Ok5O0nP05zy9kH69VX18v5PzNdMbbe-0kMw/viewform?usp=header"
     },
 
     {
         c: "3",
-        m: "3.5.1",
-        t: "Collaborative Activities",
-        d: "Details related to collaborative activities with other institutions and organizations.",
+        m: "3.5.1,3.5.2",
+        t: "Consultancy Revenue & Development Expenditure",
+        d: "Revenue generated from consultancy and corporate training, and expenditure on developing facilities and training teachers and clerical/project staff for consultancy during the year (INR in lakhs).",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSd0yoa3UvtKuIasRMqLpIlARm7aSa05KaIKV2B74MaVgON-nQ/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.6.2",
-        t: "Extension & Outreach Programmes",
-        d: "Details related to extension and outreach programmes conducted by the institution.",
+        t: "Extension Activity Awards & Recognition",
+        d: "Details of awards and recognition received by the institution, teachers and students for extension activities from Government/Government-recognised bodies during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSeKB44MO0OCN2Xi48TjKKNOM9j8xVBpy1FXgB2D2DjY0Sg4rg/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.6.3 & 3.6.4",
-        t: "Extension Activities & Student Participation",
-        d: "Details related to extension activities and student participation.",
+        t: "Extension & Outreach Programmes",
+        d: "Details of extension and outreach programmes conducted through NSS/NCC/Red Cross/YRC and similar initiatives, including Government-initiated programmes and activities with industry, community and NGOs, along with the number of students participating in these activities during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSd1WBZNAMj0exhlgzuUt1-BxDLvDLEPFk40BHVbafUjzo421Q/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.7.1",
-        t: "Collaboration & Linkages",
-        d: "Details related to institutional collaborations, linkages and related activities.",
+        t: "Collaborative Research & Academic Activities",
+        d: "Details of collaborative activities for research, faculty/student exchange, internships, on-the-job training, project work, etc. during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSe8CRKpsr6GKjzgS2rHavPat3hoKm_h62Sy-D2oToihNQrLBg/viewform?usp=header"
     },
 
     {
         c: "3",
         m: "3.7.2",
-        t: "Collaborative Activities & Linkages",
-        d: "Details related to collaborations, linkages and institutional activities.",
+        t: "Functional MoUs & Collaborations",
+        d: "Details of functional MoUs with institutions of national/international importance, universities, industries and corporate houses with ongoing activities during the year.",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSfQXOgIf2hqISqID6hjQxqD9O8waoYz5ztSpaPeRkGn5bTJyQ/viewform?usp=header"
     }
 ];
