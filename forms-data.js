@@ -122,8 +122,8 @@ const FORMS = [
     {
         c: "3",
         m: "3.4.3",
-        t: "Extension & Outreach Activities",
-        d: "Details related to extension, outreach and community-oriented activities.",
+        t: "Publications",
+        d: "Details of research papers per teacher in CARE Journals notified on UGC website during the year",
         url: "https://docs.google.com/forms/d/e/1FAIpQLSdHZMimUnfyi33pEzxbU-BOvW1cQ3cQ3VwIa4FDcMoUpvsnSA/viewform?usp=header"
     },
 
